@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "adventofcode"
+version = "0.1.0"
+description = ""
+authors = ["Crypto Hashi <cryptoxhashi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notebook = "^7.5.0"
+numpy = "^2.3.5"
+shapely = "^2.1.2"
+pulp = "^3.3.0"
+tdqm = "^0.0.1"
+numba = "^0.63.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
